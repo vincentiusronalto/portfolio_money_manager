@@ -8,9 +8,9 @@ export const Balance = () => {
 
   return (
     //fragment no div?
-    <>
+    <React.Fragment>
       <h4>Your Balance</h4>
       <h1>${total}</h1>
-    </>
+    </React.Fragment>
   );
 };
